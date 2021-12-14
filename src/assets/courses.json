@@ -2,26 +2,31 @@
   {
     "_id": "1",
     "name": "Angular: CLI",
-    "category": "Angular"
+    "category": "front-end"
   },
   {
     "_id": "2",
     "name": "Angular: Forms",
-    "category": "Angular"
+    "category": "front-end"
   },
   {
     "_id": "3",
     "name": "Angular: HTTP",
-    "category": "Angular"
+    "category": "front-end"
   },
   {
     "_id": "4",
     "name": "Angular: Router",
-    "category": "Angular"
+    "category": "front-end"
   },
   {
     "_id": "5",
     "name": "Angular: Animations",
-    "category": "Angular"
+    "category": "front-end"
+  },
+  {
+    "_id": "6",
+    "name": "Java",
+    "category": "back-end"
   }
 ]
