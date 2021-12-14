@@ -1,0 +1,27 @@
+[
+  {
+    "_id": "1",
+    "name": "Angular: CLI",
+    "category": "Angular"
+  },
+  {
+    "_id": "2",
+    "name": "Angular: Forms",
+    "category": "Angular"
+  },
+  {
+    "_id": "3",
+    "name": "Angular: HTTP",
+    "category": "Angular"
+  },
+  {
+    "_id": "4",
+    "name": "Angular: Router",
+    "category": "Angular"
+  },
+  {
+    "_id": "5",
+    "name": "Angular: Animations",
+    "category": "Angular"
+  }
+]

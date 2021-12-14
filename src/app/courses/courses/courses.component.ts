@@ -1,3 +1,5 @@
+import { Observable } from 'rxjs';
+import { CoursesService } from './../services/courses.service';
 import { Course } from './../model/course';
 import { Component, OnInit } from '@angular/core';
 
@@ -7,33 +9,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./courses.component.scss']
 })
 export class CoursesComponent implements OnInit {
-
-  courses: Course[] = [
-    {
-      _id: '1',
-      name: 'Angular: CLI',
-      category: 'Angular'
-    },
-    {
-      _id: '2',
-      name: 'Angular: Forms',
-      category: 'Angular'
-    },
-    {
-      _id: '3',
-      name: 'Angular: HTTP',
-      category: 'Angular'
-    },
-    {
-      _id: '4',
-      name: 'Angular: Router',
-      category: 'Angular'
-    }
-  ];
-
+  courses: Observable<Course[]>;
   displayedColumns: string[] = ['name', 'category'];
 
-  constructor() { }
+  constructor(private coursesService: CoursesService) {
+    this.courses = this.coursesService.list();
+  }
 
   ngOnInit(): void {
   }
