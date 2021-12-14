@@ -1,3 +1,4 @@
+import { MatTableModule } from '@angular/material/table';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -11,6 +12,7 @@ import { CoursesComponent } from './courses/courses.component';
   ],
   imports: [
     CommonModule,
+    MatTableModule,
     CoursesRoutingModule
   ]
 })
